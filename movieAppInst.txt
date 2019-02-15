@@ -1,0 +1,8 @@
+#install ionic
+npm install -g ionic
+
+#Create new blank ionic 4 app with angular
+ionic start movieApp blank --type=angular
+
+#Run app in android device
+ionic cordova platform add android
